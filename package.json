@@ -1,0 +1,25 @@
+{
+  "name": "whoami-api",
+  "version": "1.0.0",
+  "description": "A full-stack JavaScript microservice to display a user's IP address, language, and operating system.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aaroncallahan/whoami-api.git"
+  },
+  "keywords": [
+    "whoami"
+  ],
+  "author": "Aaron Callahan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aaroncallahan/whoami-api/issues"
+  },
+  "homepage": "https://github.com/aaroncallahan/whoami-api#readme",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
+}
