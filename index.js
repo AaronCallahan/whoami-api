@@ -1,7 +1,7 @@
 'use strict';
 const express = require('express');
 const app = express();
-const port = process.argv[2] || 8080;
+const port = process.argv[2] || process.env.PORT || 3000;
 
 app.get('/', (req, res) => {
 
